@@ -21,10 +21,11 @@ while attempts < max_attempts:
         print(f'you have used {attempts}/{max_attempts} tries')
         print()
     else:
-        print(f'Congo, You got it in {attempts} tries')
+        print(f'!! Congo, You got it in {attempts} tries !!')
         break
     if attempts >= max_attempts:
         print(f'You have used all {max_attempts} tries')
         print(f'The number was {secret_number}')
         break
+
 
